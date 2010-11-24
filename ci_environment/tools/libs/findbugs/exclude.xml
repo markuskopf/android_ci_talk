@@ -1,0 +1,17 @@
+<FindBugsFilter>
+  <Match>
+    <Class name="com.example.android.notepad.R$attr"/>
+  </Match>
+  <Match>
+    <Class name="com.example.android.notepad.R$drawable"/>
+  </Match>
+  <Match>
+    <Class name="com.example.android.notepad.R$id"/>
+  </Match>
+  <Match>
+    <Class name="com.example.android.notepad.R$layout"/>
+  </Match>
+  <Match>
+    <Class name="com.example.android.notepad.R$string"/>
+  </Match>
+</FindBugsFilter>
