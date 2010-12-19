@@ -81,7 +81,7 @@
 	<!-- This target executes the android junit test -->
 	<target name="test">
 		<echo>Testing</echo>
-		<exec executable="${sdk.dir}/tools/adb" output="${tmpfile}">
+		<exec executable="${sdk.dir}/platform-tools/adb" output="${tmpfile}">
 			<arg value="shell" />
 			<arg value="am" />
 			<arg value="instrument" />
